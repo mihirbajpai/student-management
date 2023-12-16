@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Student Management</string>
+    <string name="developer">Developer: @MihirBajpai</string>
+    <string name="enter_roll_number">Enter Roll Number</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_marks">Enter Marks</string>
+    <string name="add_student">Add Student</string>
+    <string name="delete_student">Delete Student</string>
+    <string name="modify">Modify</string>
+    <string name="show_student_s">Show Student\'s</string>
+</resources>

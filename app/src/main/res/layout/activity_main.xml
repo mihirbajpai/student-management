@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/blake_shade_1"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/developer"
+        android:gravity="center"
+        android:textColor="#514463"/>
+
+    <EditText
+        android:id="@+id/ipRN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/enter_roll_number"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="#989898"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/ip_back">
+
+        <requestFocus/>
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/ipName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/enter_name"
+        android:inputType="textCapWords"
+        android:textColor="@color/white"
+        android:textColorHint="#989898"
+        android:layout_margin="15dp"
+        android:background="@color/ip_back">
+
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/ipMarks"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/enter_marks"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="#989898"
+        android:layout_margin="15dp"
+        android:background="@color/ip_back">
+
+    </EditText>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/addStudent"
+        android:text="@string/add_student"
+        android:textColor="@color/blake_shade_1"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/delStudent"
+        android:layout_width="161dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="@string/delete_student"
+        android:textColor="@color/blake_shade_1"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:id="@+id/modifyStudent"
+        android:text="@string/modify"
+        android:textColor="@color/blake_shade_1"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:id="@+id/show"
+        android:text="@string/show_student_s"
+        android:textColor="@color/blake_shade_1"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
